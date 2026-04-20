@@ -1,0 +1,142 @@
+{
+  "_meta": {
+    "title": "肌少症診斷標準資料庫",
+    "description": "亞洲肌少症工作小組 AWGS 2019 更新版診斷標準",
+    "version": "1.0.0",
+    "last_updated": "2026-04-17",
+    "primary_source": "Chen LK et al. (2020) J Am Med Dir Assoc 21(3):300-307. PMID: 31920071",
+    "secondary_source": "Cruz-Jentoft AJ et al. (2019) Age Ageing 48(1):16-31. PMID: 30312372",
+    "taiwan_context": "AWGS 2019 為亞洲族群（含台灣）制定的肌少症診斷切點，考量亞洲人體型較小，採用與歐洲 EWGSOP2 不同的肌肉量閾值"
+  },
+  "diagnostic_categories": [
+    {
+      "id": "diag_001",
+      "category": "可能肌少症（Possible Sarcopenia）",
+      "awgs_2019_criteria": "肌力下降（握力不足）或體能表現不佳（任一項）",
+      "clinical_action": "立即介入（運動＋營養），無需等待影像確診",
+      "evidence_grade": "A",
+      "pmid": "31920071",
+      "taiwan_context": "AWGS 2019 新增「可能肌少症」類別，目的是讓基層診所不需 DXA 也能啟動介入，適合台灣醫療資源分配現況"
+    },
+    {
+      "id": "diag_002",
+      "category": "肌少症（Sarcopenia）",
+      "awgs_2019_criteria": "肌肉量不足（DXA 或 BIA）+ 肌力下降或體能表現不佳",
+      "evidence_grade": "A",
+      "pmid": "31920071",
+      "taiwan_context": "需 DXA 或 BIA 確認肌肉量，台灣各大醫院均可執行 BIA 檢測"
+    },
+    {
+      "id": "diag_003",
+      "category": "嚴重肌少症（Severe Sarcopenia）",
+      "awgs_2019_criteria": "肌肉量不足 + 肌力下降 + 體能表現不佳（三項均符合）",
+      "evidence_grade": "A",
+      "pmid": "31920071",
+      "taiwan_context": "嚴重肌少症與跌倒、失能、住院、死亡風險顯著相關，台灣老年人嚴重肌少症盛行率約 1–3%"
+    }
+  ],
+  "cutoff_values": [
+    {
+      "id": "cutoff_001",
+      "measurement": "四肢骨骼肌量指數（ASMI）—DXA",
+      "male_cutoff": "< 7.0 kg/m²",
+      "female_cutoff": "< 5.4 kg/m²",
+      "unit": "kg/m²",
+      "method": "雙能量 X 光吸收儀（DXA）",
+      "evidence_grade": "A",
+      "pmid": "31920071",
+      "taiwan_context": "DXA 為黃金標準，台灣醫學中心普遍可執行，健保部分給付骨質疏鬆篩檢時可同步評估"
+    },
+    {
+      "id": "cutoff_002",
+      "measurement": "四肢骨骼肌量指數（ASMI）—BIA",
+      "male_cutoff": "< 7.0 kg/m²",
+      "female_cutoff": "< 5.7 kg/m²",
+      "unit": "kg/m²",
+      "method": "生物電阻抗分析（BIA）",
+      "note": "女性 BIA 切點較 DXA 高 0.3 kg/m²，因 BIA 估算方式不同",
+      "evidence_grade": "A",
+      "pmid": "31920071",
+      "taiwan_context": "BIA 儀器已普及至台灣社區健康站、診所及藥局，是最實用的篩檢工具"
+    },
+    {
+      "id": "cutoff_003",
+      "measurement": "握力（Handgrip Strength）",
+      "male_cutoff": "< 28 kg",
+      "female_cutoff": "< 18 kg",
+      "unit": "kg",
+      "method": "握力計（慣用手，坐姿）",
+      "evidence_grade": "A",
+      "pmid": "31920071",
+      "taiwan_context": "握力計成本低（約 1,500 元），適合台灣社區篩檢計畫。研究顯示台灣老年人平均握力：男性約 32 kg，女性約 20 kg（NHRI 2020）"
+    },
+    {
+      "id": "cutoff_004",
+      "measurement": "步行速度（Usual Gait Speed）",
+      "male_cutoff": "< 1.0 m/s",
+      "female_cutoff": "< 1.0 m/s",
+      "unit": "m/s",
+      "method": "6 公尺步行測試（一般步行速度）",
+      "evidence_grade": "A",
+      "pmid": "31920071",
+      "taiwan_context": "步行速度 < 0.8 m/s 顯示失能高風險；台灣老年人因城鄉差距，農村老年人體能表現通常優於都市老年人"
+    },
+    {
+      "id": "cutoff_005",
+      "measurement": "五次起坐測試（5-Time Chair Stand）",
+      "male_cutoff": "> 12 秒",
+      "female_cutoff": "> 12 秒",
+      "unit": "秒",
+      "method": "從椅子起立坐下五次的完成時間",
+      "evidence_grade": "A",
+      "pmid": "31920071",
+      "taiwan_context": "五次起坐測試不需器材，適合台灣基層診所與社區篩檢，與步行速度可擇一使用"
+    },
+    {
+      "id": "cutoff_006",
+      "measurement": "簡易體能量表（SPPB）",
+      "male_cutoff": "≤ 9 分",
+      "female_cutoff": "≤ 9 分",
+      "unit": "分（滿分 12 分）",
+      "method": "平衡測試 + 步行速度 + 起坐測試三項合計",
+      "evidence_grade": "A",
+      "pmid": "31920071",
+      "taiwan_context": "SPPB 已有中文版，用於台灣長期照護評估（長照 2.0）"
+    }
+  ],
+  "screening_tools": [
+    {
+      "id": "screen_001",
+      "tool": "SARC-F 問卷",
+      "description": "5 題自填問卷（肌力、步行、起立、爬樓梯、跌倒次數）",
+      "score_range": "0–10 分",
+      "positive_cutoff": "≥ 4 分",
+      "sensitivity": "低（約 21%）",
+      "specificity": "高（約 94%）",
+      "evidence_grade": "B",
+      "pmid": "24781225",
+      "taiwan_context": "SARC-F 已有繁體中文版，台灣衛生所推廣使用。敏感性低，陰性不排除肌少症，建議搭配握力篩檢"
+    },
+    {
+      "id": "screen_002",
+      "tool": "SARC-CalF",
+      "description": "SARC-F + 小腿圍測量（男性 < 34cm，女性 < 33cm 為異常）",
+      "positive_cutoff": "≥ 11 分",
+      "sensitivity": "約 60%",
+      "specificity": "約 86%",
+      "evidence_grade": "B",
+      "pmid": "30268743",
+      "taiwan_context": "台灣研究顯示 SARC-CalF 在社區老年人的診斷準確性優於 SARC-F，適合基層衛生所使用"
+    },
+    {
+      "id": "screen_003",
+      "tool": "小腿圍（Calf Circumference）",
+      "description": "坐姿，非慣用腳小腿最粗處測量",
+      "male_cutoff": "< 34 cm",
+      "female_cutoff": "< 33 cm",
+      "evidence_grade": "B",
+      "pmid": "31920071",
+      "taiwan_context": "小腿圍是社區篩檢最簡便工具，無需器材，台灣社區關懷據點已廣泛使用"
+    }
+  ]
+}

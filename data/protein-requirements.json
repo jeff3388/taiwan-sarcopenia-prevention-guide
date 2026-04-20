@@ -1,0 +1,160 @@
+{
+  "_meta": {
+    "title": "高齡者蛋白質需求資料庫",
+    "description": "ESPEN 2018 老年人蛋白質建議 × 台灣 DRI 第八版 × 白胺酸閾值研究",
+    "version": "1.0.0",
+    "last_updated": "2026-04-17",
+    "primary_source": "Deutz NE et al. (2017) Clin Nutr 36(1):29-36. PMID: 28756328",
+    "secondary_sources": [
+      "Paddon-Jones D & Rasmussen BB (2009) Curr Opin Clin Nutr Metab Care 12(1):86-90. PMID: 19208091",
+      "Moore DR et al. (2015) Nutrients 7(4):2714-2727. PMID: 25858188",
+      "衛福部國民健康署（2023）台灣人膳食營養素參考攝取量第八版"
+    ]
+  },
+  "daily_requirements": [
+    {
+      "id": "prot_001",
+      "population": "健康老年人（≥ 65 歲）",
+      "recommended_intake_g_per_kg": "1.0–1.2",
+      "basis": "ESPEN 2018 共識聲明",
+      "evidence_grade": "A",
+      "pmid": "28756328",
+      "rationale": "老年人因合成代謝阻抗（anabolic resistance），需較成年人更高的蛋白質才能達到相同肌肉蛋白合成效果",
+      "taiwan_context": "台灣 DRI（2023）70 歲以上男女均建議 1.0 g/kg，ESPEN 1.0–1.2 g/kg 上限更符合肌少症預防需求。依台灣 NHRI 調查，65 歲以上男性平均攝取約 0.9 g/kg，女性約 0.8 g/kg，普遍未達建議量"
+    },
+    {
+      "id": "prot_002",
+      "population": "合併急性或慢性疾病老年人",
+      "recommended_intake_g_per_kg": "1.2–1.5",
+      "basis": "ESPEN 2018",
+      "evidence_grade": "A",
+      "pmid": "28756328",
+      "examples": "心衰竭、慢性腎臟病第 1–3 期、糖尿病、術後恢復期",
+      "note": "慢性腎臟病第 3b 期以上（eGFR < 45）蛋白質建議需個別評估，勿自行增加",
+      "taiwan_context": "台灣糖尿病老年人盛行率超過 30%，此族群蛋白質需求高於一般老年人，但常因腎功能顧慮而攝取不足"
+    },
+    {
+      "id": "prot_003",
+      "population": "嚴重疾病、手術或創傷後老年人",
+      "recommended_intake_g_per_kg": "1.5–2.0",
+      "basis": "ESPEN ICU 指引 2019",
+      "evidence_grade": "B",
+      "pmid": "30803894",
+      "taiwan_context": "住院老年人常因食慾不振、咀嚼困難、醫療限制而蛋白質攝取嚴重不足，應由營養師個別評估"
+    },
+    {
+      "id": "prot_004",
+      "population": "純素老年人（Vegan Elderly）",
+      "recommended_intake_g_per_kg": "1.3–1.5",
+      "basis": "植物性蛋白質消化率校正氨基酸分數（PDCAAS）較低，需增加攝取量",
+      "evidence_grade": "B",
+      "pmid": "25369930",
+      "plant_protein_tips": [
+        "以豆腐（板豆腐）、豆乾、毛豆為主要蛋白質來源",
+        "搭配完整氨基酸：豆類 + 穀類（米飯 + 豆腐）",
+        "考慮添加豌豆蛋白粉或大豆蛋白粉補充",
+        "每日攝取黃豆製品至少 2–3 份（每份約 3g 蛋白質）"
+      ],
+      "taiwan_context": "台灣佛教素食老年人比例較高，植物性蛋白質利用率較動物性低約 10–20%，需特別注意攝取量是否充足"
+    }
+  ],
+  "per_meal_optimization": [
+    {
+      "id": "meal_001",
+      "concept": "每餐蛋白質閾值",
+      "optimal_per_meal_g": "25–40",
+      "leucine_threshold_g": "2.5–3.0",
+      "basis": "肌肉蛋白合成（MPS）在每餐蛋白質達 25–30g（年輕人）或 40g（老年人）時達到平台期",
+      "evidence_grade": "A",
+      "pmid": "19208091",
+      "taiwan_context": "台灣傳統餐食早餐蛋白質最不足，典型早餐（稀飯 + 醬菜）僅含 3–5g 蛋白質，建議加入雞蛋、豆漿或豆腐",
+      "practical_tips": [
+        "早餐：2 顆水煮蛋 + 無糖豆漿 400ml ≈ 26g 蛋白質",
+        "午餐：雞胸肉 100g + 豆腐 100g ≈ 31g 蛋白質",
+        "晚餐：魚 120g + 毛豆 50g ≈ 32g 蛋白質"
+      ]
+    },
+    {
+      "id": "meal_002",
+      "concept": "白胺酸（Leucine）的特殊角色",
+      "mechanism": "白胺酸直接活化 mTORC1 訊號傳遞，是觸發肌肉蛋白合成最關鍵的必需氨基酸",
+      "threshold_per_meal_g": "2.5–3.0",
+      "evidence_grade": "A",
+      "pmid": "19208091",
+      "high_leucine_foods": [
+        { "food": "雞胸肉", "leucine_per_100g_g": 1.8, "protein_per_100g_g": 23 },
+        { "food": "鮭魚", "leucine_per_100g_g": 1.7, "protein_per_100g_g": 22 },
+        { "food": "黃豆（煮熟）", "leucine_per_100g_g": 1.4, "protein_per_100g_g": 17 },
+        { "food": "雞蛋（全蛋）", "leucine_per_100g_g": 1.1, "protein_per_100g_g": 13 },
+        { "food": "牛奶（全脂）", "leucine_per_100ml_g": 0.35, "protein_per_100ml_g": 3.2 }
+      ],
+      "taiwan_context": "純植物性飲食白胺酸含量相對低，素食老年人每餐建議增加豆腐（板豆腐 300g 含約 2.1g 白胺酸）或補充亮胺酸粉"
+    },
+    {
+      "id": "meal_003",
+      "concept": "運動後蛋白質攝取時機",
+      "optimal_timing": "阻力運動後 30–60 分鐘內",
+      "recommended_amount_g": "20–40",
+      "evidence_grade": "B",
+      "pmid": "28919842",
+      "taiwan_context": "台灣老年人常在晨間運動，應於 9–10 點運動結束後立即補充蛋白質早餐，而非等到午餐"
+    }
+  ],
+  "taiwan_food_protein_sources": [
+    {
+      "food": "雞胸肉（水煮）",
+      "serving_g": 100,
+      "protein_g": 23.0,
+      "leucine_g": 1.8,
+      "cost_level": "低",
+      "chewing_difficulty": "中",
+      "source": "衛福部 TFND 食品成分資料庫"
+    },
+    {
+      "food": "板豆腐",
+      "serving_g": 150,
+      "protein_g": 12.0,
+      "leucine_g": 0.9,
+      "cost_level": "低",
+      "chewing_difficulty": "低（適合吞嚥困難長者）",
+      "source": "衛福部 TFND"
+    },
+    {
+      "food": "鯖魚（煮熟）",
+      "serving_g": 100,
+      "protein_g": 20.0,
+      "leucine_g": 1.6,
+      "cost_level": "低",
+      "chewing_difficulty": "低",
+      "source": "衛福部 TFND"
+    },
+    {
+      "food": "雞蛋（全蛋，水煮）",
+      "serving_g": 55,
+      "protein_g": 7.0,
+      "leucine_g": 0.55,
+      "cost_level": "最低",
+      "chewing_difficulty": "低",
+      "source": "衛福部 TFND"
+    },
+    {
+      "food": "無糖豆漿",
+      "serving_ml": 400,
+      "protein_g": 14.0,
+      "leucine_g": 1.0,
+      "cost_level": "最低",
+      "chewing_difficulty": "無（流質）",
+      "source": "衛福部 TFND",
+      "taiwan_context": "台灣傳統無糖豆漿（非包裝飲品）蛋白質含量較穩定，早餐店現做豆漿約 400ml"
+    },
+    {
+      "food": "毛豆（煮熟）",
+      "serving_g": 100,
+      "protein_g": 11.0,
+      "leucine_g": 0.86,
+      "cost_level": "低",
+      "chewing_difficulty": "低",
+      "source": "衛福部 TFND"
+    }
+  ]
+}

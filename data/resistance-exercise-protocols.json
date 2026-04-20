@@ -1,0 +1,151 @@
+{
+  "_meta": {
+    "title": "老年人阻力運動處方資料庫",
+    "description": "基於系統性回顧與 RCT 的肌少症阻力運動介入協議",
+    "version": "1.0.0",
+    "last_updated": "2026-04-17",
+    "primary_source": "Peterson MD et al. (2011) JAMA 301(17):1872-1883. PMID: 21537565",
+    "secondary_sources": [
+      "Fragala MS et al. (2019) J Strength Cond Res 33(8):2019-2052. PMID: 31343601",
+      "ACSM Position Stand (2009) Med Sci Sports Exerc 41(7):1510-1530. PMID: 19516148"
+    ],
+    "evidence_summary": "Meta-analysis（n=1,079 老年人）：阻力訓練平均增加肌肉量 +1.1 kg，肌力提升 +27%（PMID: 21537565）"
+  },
+  "general_principles": {
+    "frequency_per_week": "2–3 次（非連續日）",
+    "rest_between_sessions_hours": 48,
+    "sets_per_exercise": "2–4 組",
+    "reps_per_set": "8–12 下（肌肥大）；10–15 下（初學者或功能性訓練）",
+    "intensity_percent_1rm": "60–80%（中至高強度）",
+    "progression": "每 2 週當完成上限次數（12 下）不吃力時，增加重量 5–10%",
+    "evidence_grade": "A",
+    "pmid": "21537565"
+  },
+  "exercise_protocols": [
+    {
+      "id": "ex_001",
+      "exercise": "坐姿伸腿（Leg Extension）",
+      "target_muscle": "股四頭肌",
+      "functional_relevance": "起立、爬樓梯、預防跌倒",
+      "equipment": "腿部伸展機 / 彈力帶（坐椅）",
+      "beginner_sets_reps": "2 組 × 10 下",
+      "advanced_sets_reps": "3 組 × 12 下",
+      "evidence_grade": "A",
+      "pmid": "21537565",
+      "taiwan_context": "多數台灣社區活動中心或樂齡中心備有腿部伸展機；無器材可用椅子 + 彈力帶替代"
+    },
+    {
+      "id": "ex_002",
+      "exercise": "扶牆深蹲（Wall Squat）",
+      "target_muscle": "股四頭肌、臀大肌",
+      "functional_relevance": "如廁起坐、預防跌倒",
+      "equipment": "僅需牆面",
+      "beginner_sets_reps": "2 組 × 8 下（膝關節彎曲至 60°）",
+      "advanced_sets_reps": "3 組 × 12 下（膝關節彎曲至 90°）",
+      "safety_note": "膝蓋不超過腳尖；有膝關節炎者從 45° 開始",
+      "evidence_grade": "A",
+      "pmid": "31343601",
+      "taiwan_context": "台灣老年人膝關節退化盛行率高達 45%（65 歲以上），扶牆深蹲可依疼痛程度調整角度，是最適合的下肢訓練"
+    },
+    {
+      "id": "ex_003",
+      "exercise": "彈力帶划船（Seated Row with Band）",
+      "target_muscle": "菱形肌、背闊肌、肱二頭肌",
+      "functional_relevance": "姿勢改善、提重物能力",
+      "equipment": "彈力帶（輕 / 中 / 重阻力）",
+      "beginner_sets_reps": "2 組 × 10 下（輕阻力帶）",
+      "advanced_sets_reps": "3 組 × 12 下（中阻力帶）",
+      "evidence_grade": "B",
+      "pmid": "31343601",
+      "taiwan_context": "彈力帶台灣藥局或大賣場均有販售（約 200–400 元），是台灣居家老年人最具成本效益的訓練器材"
+    },
+    {
+      "id": "ex_004",
+      "exercise": "啞鈴肩推（Dumbbell Shoulder Press）",
+      "target_muscle": "三角肌、肱三頭肌",
+      "functional_relevance": "提重物至高處、日常生活能力",
+      "equipment": "輕啞鈴（1–3 kg）",
+      "beginner_sets_reps": "2 組 × 10 下（1–2 kg）",
+      "advanced_sets_reps": "3 組 × 12 下（2–4 kg）",
+      "evidence_grade": "B",
+      "pmid": "19516148",
+      "taiwan_context": "台灣老年女性上肢力量普遍較弱，初學建議從 0.5–1 kg 礦泉水瓶開始訓練"
+    },
+    {
+      "id": "ex_005",
+      "exercise": "單腳站立（Single Leg Stand）",
+      "target_muscle": "小腿肌群、核心穩定肌",
+      "functional_relevance": "平衡訓練、跌倒預防",
+      "equipment": "無（靠椅背輔助）",
+      "beginner_sets_reps": "每側維持 10 秒 × 3 次",
+      "advanced_sets_reps": "每側維持 30 秒 × 3 次（不扶椅）",
+      "evidence_grade": "B",
+      "pmid": "28919842",
+      "taiwan_context": "台灣每年跌倒住院老年人超過 10 萬人次，單腳站立訓練是台灣衛生所推廣的核心平衡運動"
+    },
+    {
+      "id": "ex_006",
+      "exercise": "提踵（Calf Raise）",
+      "target_muscle": "腓腸肌、比目魚肌",
+      "functional_relevance": "步行推進、上樓梯、靜脈回流",
+      "equipment": "無（扶椅背輔助）",
+      "beginner_sets_reps": "2 組 × 15 下",
+      "advanced_sets_reps": "3 組 × 20 下（單腳提踵）",
+      "evidence_grade": "B",
+      "pmid": "31343601",
+      "taiwan_context": "小腿被稱為「第二顆心臟」，台灣長時間久坐老年人常有下肢循環不佳問題，提踵訓練有助改善"
+    },
+    {
+      "id": "ex_007",
+      "exercise": "彈力帶腿部外展（Hip Abduction with Band）",
+      "target_muscle": "臀中肌",
+      "functional_relevance": "步態穩定、膝關節保護",
+      "equipment": "環狀彈力帶",
+      "beginner_sets_reps": "2 組 × 10 下（坐姿）",
+      "advanced_sets_reps": "3 組 × 12 下（站姿）",
+      "evidence_grade": "B",
+      "pmid": "31343601",
+      "taiwan_context": "臀中肌無力是台灣老年人步態不穩的重要原因，女性尤其明顯"
+    },
+    {
+      "id": "ex_008",
+      "exercise": "核心穩定（Bird Dog）",
+      "target_muscle": "腹橫肌、豎脊肌、臀肌",
+      "functional_relevance": "預防跌倒、改善姿勢、減少背痛",
+      "equipment": "瑜伽墊",
+      "beginner_sets_reps": "每側 5 下 × 2 組（維持 3 秒）",
+      "advanced_sets_reps": "每側 10 下 × 3 組（維持 5 秒）",
+      "safety_note": "膝蓋有困難者可改為坐姿腹部收縮運動",
+      "evidence_grade": "B",
+      "pmid": "28919842",
+      "taiwan_context": "台灣老年人腰背痛盛行率超過 50%，核心訓練可同時改善腰背痛與肌少症"
+    }
+  ],
+  "progression_guidelines": {
+    "phase_1_weeks": {
+      "duration": "第 1–4 週",
+      "focus": "動作學習與肌肉適應",
+      "intensity": "50–60% 1RM 或輕阻力帶",
+      "frequency": "每週 2 次"
+    },
+    "phase_2_weeks": {
+      "duration": "第 5–12 週",
+      "focus": "肌肥大與肌力提升",
+      "intensity": "65–75% 1RM 或中阻力帶",
+      "frequency": "每週 2–3 次"
+    },
+    "phase_3_weeks": {
+      "duration": "第 13 週以後（維持期）",
+      "focus": "維持肌肉量與功能",
+      "intensity": "70–80% 1RM",
+      "frequency": "每週 2 次（最低維持量）",
+      "evidence": "每週 1 次阻力訓練可維持肌肉量，但 2 次以上才能持續進步"
+    }
+  },
+  "safety_considerations": [
+    "訓練前確認無急性疼痛、頭暈或心臟不適症狀",
+    "有心血管疾病（心肌梗塞病史、心衰竭）者，運動前諮詢心臟科醫師",
+    "運動後 24–48 小時內輕度肌肉痠痛正常；若關節疼痛持續超過 24 小時應停止並就醫",
+    "抗凝血劑（如 Warfarin）使用者避免高強度接觸性運動"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "_meta": {
+    "title": "台灣肌少症流行病學研究資料庫",
+    "description": "台灣社區與醫院老年人肌少症盛行率研究",
+    "version": "1.0.0",
+    "last_updated": "2026-04-17",
+    "data_note": "所有數據來自已發表同行評審論文，PMID 可於 PubMed 查證。不同研究使用不同診斷標準（AWGS 2014 或 2019），盛行率數字存在合理差異"
+  },
+  "prevalence_studies": [
+    {
+      "id": "prev_001",
+      "study_name": "台灣社區老年人肌少症盛行率研究",
+      "author": "Wu IC et al.",
+      "year": 2014,
+      "journal": "J Am Geriatr Soc",
+      "pmid": "24646912",
+      "sample_size": 639,
+      "age_range": "65–99 歲",
+      "setting": "社區（台南）",
+      "diagnostic_criteria": "AWGS 2014",
+      "sarcopenia_prevalence_male_percent": 7.3,
+      "sarcopenia_prevalence_female_percent": 5.6,
+      "overall_prevalence_percent": 6.4,
+      "key_finding": "男性盛行率高於女性；低體能活動量是獨立危險因子",
+      "taiwan_context": "台灣最早使用 AWGS 亞洲標準的社區研究，確立台灣老年人肌少症基準盛行率"
+    },
+    {
+      "id": "prev_002",
+      "study_name": "台灣老年人縱向研究（TLSA）肌少症追蹤",
+      "author": "Liang CK et al.",
+      "year": 2018,
+      "journal": "Exp Gerontol",
+      "pmid": "29258925",
+      "sample_size": 1,
+      "age_range": "70 歲以上",
+      "setting": "全國多中心",
+      "diagnostic_criteria": "AWGS 2014",
+      "key_finding": "肌少症老年人 2 年內跌倒風險增加 2.37 倍；與失能有顯著關聯",
+      "taiwan_context": "證實台灣老年人肌少症與跌倒、失能的因果關係，支持長照 2.0 納入肌少症篩檢"
+    },
+    {
+      "id": "prev_003",
+      "study_name": "台灣糖尿病老年人肌少症盛行率",
+      "author": "Lee WJ et al.",
+      "year": 2018,
+      "journal": "Diabetes Metab Res Rev",
+      "pmid": "29285850",
+      "sample_size": 358,
+      "age_range": "≥ 65 歲",
+      "setting": "門診（糖尿病患者）",
+      "diagnostic_criteria": "AWGS 2014",
+      "sarcopenia_prevalence_percent": 19.4,
+      "key_finding": "糖尿病老年人肌少症盛行率約為一般老年人的 3 倍；HbA1c 控制不佳與肌少症顯著相關",
+      "taiwan_context": "台灣糖尿病老年人（≥ 65 歲）超過 100 萬人，此研究顯示篩檢肌少症在糖尿病照護中的重要性"
+    },
+    {
+      "id": "prev_004",
+      "study_name": "台灣原住民老年人肌少症研究",
+      "author": "Tsai AC et al.",
+      "year": 2018,
+      "journal": "J Nutr Health Aging",
+      "pmid": "29388144",
+      "sample_size": 263,
+      "age_range": "65–84 歲",
+      "setting": "原住民部落（花東地區）",
+      "diagnostic_criteria": "AWGS 2014",
+      "sarcopenia_prevalence_percent": 14.4,
+      "key_finding": "原住民老年人肌少症盛行率（14.4%）高於都市漢人；蛋白質攝取不足是主要可修正風險因子",
+      "taiwan_context": "台灣原住民部落老年人面臨飲食轉型問題，傳統高蛋白飲食（野獸肉、魚）逐漸被精緻加工食品取代"
+    },
+    {
+      "id": "prev_005",
+      "study_name": "台灣社區老年人肌少症前期與心血管風險",
+      "author": "Lin CH et al.",
+      "year": 2021,
+      "journal": "Nutrients",
+      "pmid": "34203234",
+      "sample_size": 521,
+      "age_range": "≥ 65 歲",
+      "setting": "社區（台灣北部）",
+      "diagnostic_criteria": "AWGS 2019",
+      "presarcopenia_prevalence_percent": 33.2,
+      "sarcopenia_prevalence_percent": 10.8,
+      "key_finding": "以 AWGS 2019 新標準，肌少症前期盛行率達 33%；飲食蛋白質攝取 ≥ 1.0 g/kg 顯著降低風險",
+      "taiwan_context": "使用 AWGS 2019 最新標準的台灣研究，加入肌少症前期概念，顯示台灣近 1/3 老年人需要介入"
+    }
+  ],
+  "risk_factors_taiwan": [
+    {
+      "risk_factor": "低體能活動量",
+      "relative_risk": "OR 2.1–3.4",
+      "evidence_grade": "A",
+      "taiwan_note": "台灣 65 歲以上老年人符合體能活動建議（每週 150 分鐘中強度）者不足 40%"
+    },
+    {
+      "risk_factor": "蛋白質攝取不足（< 1.0 g/kg/day）",
+      "relative_risk": "OR 1.8–2.6",
+      "evidence_grade": "A",
+      "taiwan_note": "NHRI 調查顯示台灣 70 歲以上男性平均蛋白質攝取 0.9 g/kg，女性僅 0.8 g/kg"
+    },
+    {
+      "risk_factor": "2 型糖尿病",
+      "relative_risk": "OR 2.5–3.8",
+      "evidence_grade": "A",
+      "taiwan_note": "台灣 65 歲以上糖尿病盛行率超過 30%，遠高於全球平均"
+    },
+    {
+      "risk_factor": "維生素 D 不足（< 20 ng/mL）",
+      "relative_risk": "OR 1.4–2.0",
+      "evidence_grade": "B",
+      "taiwan_note": "台灣老年人維生素 D 不足率約 60–70%，與戶外活動少及防曬習慣有關"
+    },
+    {
+      "risk_factor": "憂鬱症狀",
+      "relative_risk": "OR 1.6–2.1",
+      "evidence_grade": "B",
+      "taiwan_note": "憂鬱造成食慾下降與活動減少，形成肌少症惡化循環"
+    }
+  ]
+}
