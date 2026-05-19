@@ -74,6 +74,14 @@
 
 本資料庫以公共衛生教育為目的。肌少症診斷與治療需由醫師或醫療團隊評估，本資料庫不構成醫療建議。
 
+## 相關工具（Interactive Tools）
+
+本資料庫的肌少症預防科學，已整合至 [MetaboLab](https://metabolab.tw) 的互動工具中：
+
+- 💪 **[蛋白質需求計算機](https://metabolab.tw/calculators/protein-needs)**：根據年齡、體重與活動量，計算預防肌少症所需的每日蛋白質攝取量（AWGS 2019 建議 60 歲以上每公斤 1.2–1.5g，高於一般成人 0.8g/kg）。
+- 📊 **[TDEE 計算機](https://metabolab.tw/calculators/tdee)**：計算阻力訓練對老年人每日總熱量消耗的影響，確保熱量攝取足以支撐肌肉合成需求，避免「熱量不足導致肌肉分解」。
+- 🥗 **[211 餐盤計算機](https://metabolab.tw/calculators/211-meal-plan)**：設計適合老年人的高蛋白均衡飲食框架，確保每餐至少含 25–30g 蛋白質，超越亮胺酸（Leucine）合成代謝門檻。
+
 ## License
 
 MIT © taiwan-sarcopenia-prevention-guide contributors
